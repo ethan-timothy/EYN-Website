@@ -1,0 +1,73 @@
+html {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3 {
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: -2px;
+}
+
+h1 {
+    font-size: 72px;
+    text-align: center;
+    color: white;
+    align-items: center;
+    align-content: center;
+}
+
+/* Navigation bar */
+
+
+.navigation-bar {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+    height: 80px;
+    align-content: center;
+    align-items: center;
+    background-color: blanchedalmond;
+}
+
+.navigation-bar .logo {
+    width: 60px;
+    border-radius: 50%;
+}
+
+.navigation-bar .nav-links {
+    text-align: center;
+    display: flex;
+    gap: 40px;
+}
+
+.navigation-bar ul li {
+    list-style: none;
+    justify-content: space-between;
+    align-content: center;
+    gap: 90px;
+}
+
+.navigation-bar ul li a {
+    color: rgb(3, 87, 3);
+    text-decoration: none;
+    border-bottom: 1.5px solid rgb(3, 87, 3);
+}
+
+/* welcoming note */
+#welcoming-note {
+    background-image: url(/assets/images/realbg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 83vh;
+}
+
+.welcoming-note p {
+    font-size: 36px;
+    text-align: center;
+    color: white;
+}
