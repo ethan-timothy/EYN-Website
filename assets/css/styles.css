@@ -49,6 +49,7 @@ nav {
 .navigation-bar .logo {
     width: 60px;
     border-radius: 50%;
+    padding: 5px;
 }
 
 .navigation-bar ul {
