@@ -4,6 +4,10 @@ html {
     padding: 0;
 }
 
+a {
+    text-decoration: none;
+}
+
 h1, h2, h3 {
     font-weight: 700;
     line-height: 1.2;
@@ -19,18 +23,22 @@ h1 {
 }
 
 /* Navigation bar */
-
+nav {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    height: 10px;
+    align-content: center;
+    margin-top: 5px;
+}
 
 .navigation-bar {
     display: flex;
-    text-align: center;
+    top: 0;
     justify-content: space-between;
-    padding: 0;
-    margin: 0;
-    height: 80px;
-    align-content: center;
     align-items: center;
-    background-color: blanchedalmond;
+    padding: 0 20px;
+    background-color: rgb(255, 255, 255);
 }
 
 .navigation-bar .logo {
@@ -38,36 +46,99 @@ h1 {
     border-radius: 50%;
 }
 
-.navigation-bar .nav-links {
-    text-align: center;
+.navigation-bar ul {
     display: flex;
-    gap: 40px;
+    gap: 60px;
 }
 
 .navigation-bar ul li {
     list-style: none;
-    justify-content: space-between;
-    align-content: center;
-    gap: 90px;
 }
 
-.navigation-bar ul li a {
-    color: rgb(3, 87, 3);
+.navigation-bar ul li a:hover {
+    color: rgb(1, 63, 1);
+    border-bottom: 3px solid darkgreen;
+}
+
+.navigation-bar .cta {
+    border: 3px solid forestgreen;
+    border-radius: 7px;
+    padding: 5px;
     text-decoration: none;
-    border-bottom: 1.5px solid rgb(3, 87, 3);
+    color: black;
+    background-color: green;
 }
 
+.navigation-bar .cta a {
+    color: white;
+    text-decoration: none;
+}
+
+.navigation-bar .cta a:hover {
+    color: rgb(1, 63, 1);
+}
+
+li a {
+    color: green;
+}
 /* welcoming note */
 #welcoming-note {
     background-image: url(/assets/images/realbg.jpg);
     background-position: center;
+    width: 100%;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 83vh;
+    height: 100vh;
+    scroll-margin-top: 80px;
+    align-content: center;
+    padding: 0 5px;
+}
+
+.welcoming-note h1 {
+    margin-top: 0;
 }
 
 .welcoming-note p {
-    font-size: 36px;
+    font-size: 28px;
     text-align: center;
     color: white;
+    margin: 0 0;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.cta-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.cta-container ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+.cta-container .cta {
+    border: 3px solid forestgreen;
+    border-radius: 7px;
+    padding: 5px;
+    text-decoration: none;
+    color: rgb(249, 247, 247);
+    background-color: green;
+}
+
+.cta-container .volunteer-btn {
+    border: 3px solid orange;
+    border-radius: 7px;
+    padding: 5px;
+    text-decoration: none;
+    color: rgb(249, 247, 247);
+    background-color: orange;
+    height: 60px;
 }
