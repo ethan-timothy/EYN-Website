@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: 'Poppins', sans-serif;
 }
 
 html {
@@ -147,4 +148,156 @@ li a {
     color: rgb(249, 247, 247);
     background-color: orange;
     height: 60px;
+}
+
+/* Part 2: About page */
+.about {
+    margin-top: 60px;
+    text-align: center;
+    height: 300px;
+    align-content: center;
+    background-color: green;
+    color: white;
+    width: 100%;
+    margin-bottom: 100px;
+}
+
+.about h2 {
+    font-weight: 800;
+    font-size: 50px;
+    line-height: 1.2;
+    letter-spacing: -1px;
+}
+
+.about p {
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 1.5;
+    letter-spacing: 1.5;
+}
+
+.story {
+    margin-top: 50px;
+    text-align: left;
+    height: 300px;
+    align-content: center;
+    margin-left: 180px;
+    margin-right: 180px;
+    padding: 5px;
+}
+
+.story h2 {
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 1.6;
+    letter-spacing: -1px;
+    color: green;
+}
+
+.story p {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 1.5;
+    letter-spacing: 1.5;
+    font-family: 'Poppins', sans-serif;
+}
+/* Our team */
+.team {
+    display: flex;
+    justify-content: space-between;
+    margin: 100px;
+}
+
+.team img, .second img {
+    border-radius: 50%;
+    border: 2px solid forestgreen;
+}
+
+.our-team-heading {
+    color: green;
+    margin-top: 50px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 1.6;
+    letter-spacing: -1px;
+}
+
+.second {
+    display: flex;
+    justify-content: space-between;
+    margin: 100px;
+}
+
+/* Part 3 Programs */
+.programs {
+    margin-top: 60px;
+    text-align: center;
+    height: 300px;
+    align-content: center;
+    background-color: green;
+    color: white;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.programs h2 {
+    font-weight: 800;
+    font-size: 50px;
+    line-height: 1.2;
+    letter-spacing: -1px;
+}
+
+.programs p {
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 1.5;
+    letter-spacing: 1.5;
+}
+
+/* Programs-in-details */
+/* more-details */
+
+.programs-in-details {
+    padding: 0 50px;
+    margin-bottom: 100px;
+}
+
+.tree-planting, .gardening, .climate-education, .cleaning, .creativity, .harvesting {
+    margin-bottom: 30px;
+}
+
+.programs-in-details .tree-planting, .programs-in-details .gardening, .programs-in-details .climate-education, .programs-in-details .cleaning, .programs-in-details .creativity, .programs-in-details .harvesting {
+    display: flex;
+    padding: 0 50px;
+    align-items: center;
+    gap: 40px;
+    margin-bottom: 50px;
+    scroll-margin-top: 140px;
+}
+
+.programs-in-details img {
+    border-radius: 8px;
+    aspect-ratio: 1/1;
+    width: 200px;
+}
+
+.programs-in-details h3 {
+    font-size: 24px;
+    color: green;
+    font-weight: 600;
+    letter-spacing: -1px;
+    margin-bottom: 20px;
+}
+
+
+
+.programs-in-details p {
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.tree-planting-heading, .climate-heading, .creativity-heading {
+    text-align: center;
+    margin-bottom: 20px;
 }
