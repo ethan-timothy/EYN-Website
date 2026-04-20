@@ -171,76 +171,45 @@ nav .cta:hover {
 }
 /* End of Index html */
 
-/* Services html */
-/* section 1 */
-#services {
-    margin-bottom: 50px;
-    padding: 0 100px;
-    margin-top: 80px;
+/* Programs Intro */
+.programs {
+    margin-top: 60px;
+    text-align: center;
+    height: 300px;
+    align-content: center;
     background-color: green;
     color: white;
-    height: 450px;
-    align-content: center;
+    width: 100%;
+    margin-bottom: 50px;
 }
 
-#services .text h2 {
-    font-weight: 700;
+.programs h2 {
+    font-weight: 800;
     font-size: 50px;
-    text-align: center;
-    margin: 20px;
-    text-shadow: #1A1A1A 2px 2px 2px;
+    line-height: 1.2;
+    letter-spacing: -1px;
 }
 
-#services .text p {
-    margin-bottom: 20px;
+.programs p {
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 1.5;
+    letter-spacing: 1.5;
 }
 
-#services li {
-    border: rgb(255, 255, 255) solid 2px;
-    border-radius: 8px;
-    padding: 5px 10px;
-    background-color: #C2A878;
-}
+/* Programs-in-details */
+/* more-details */
 
-#services li a {
-    font-size: 18px;
-    color: #1A1A1A;
-}
-
-.offers ul {
-    display: flex;
-    text-align: center;
-    align-content: center;
-    justify-content: space-between;
-}
-
-#services li a:hover {
-    color: #04618c;
-    font-style: italic;
-}
-
-
-/* more details about services offered */
-.more-details {
+.programs-in-details {
     padding: 0 50px;
     margin-bottom: 100px;
 }
 
-.more-details h3 {
-    font-weight: 550;
-    font-size: 36px;
-}
-
-.pruning-heading, .care-heading, .harvesting-heading {
-    text-align: center;
-}
-
-.planting, .pruning, .lectures, .care, .selection, .harvesting {
+.tree-planting, .gardening, .climate-education, .cleaning, .creativity, .harvesting {
     margin-bottom: 30px;
-    padding: 5px;
 }
 
-.more-details .planting, .more-details .pruning, .more-details .lectures, .more-details .care, .more-details .selection, .more-details .harvesting {
+.programs-in-details .tree-planting, .programs-in-details .gardening, .programs-in-details .climate-education, .programs-in-details .cleaning, .programs-in-details .creativity, .programs-in-details .harvesting {
     display: flex;
     padding: 0 50px;
     align-items: center;
@@ -249,87 +218,31 @@ nav .cta:hover {
     scroll-margin-top: 140px;
 }
 
-.more-details img {
+.programs-in-details img {
     border-radius: 8px;
     aspect-ratio: 1/1;
     width: 200px;
 }
-/* End of services html */
 
-/* About html */
-.about .intro-text-container {
-    text-align: center;
-    margin-top: 80px;
-    margin-bottom: 80px;
-    background-color: green;
-    height: 300px;
-    align-content: center;
-    color: whitesmoke;
-}
-
-.about .intro-text-container h2 {
-    font-size: 42px;
-    color: whitesmoke;
-    margin-bottom: 30px;
-    text-shadow: #1A1A1A 2px 2px 2px;
-}
-
-.story {
-    text-align: center;
-    margin: 80px;
-}
-
-.story h2 {
-    font-size: 42px;
-    color: #2a2727;
-    margin-bottom: 30px;
-}
-/* team section */
-.team-section {
-    padding: 0 50px;
-    margin-bottom: 100px;
-    scroll-margin-top: 100px;
-}
-
-.team-section h2 {
-    font-size: 42px;
-    color: #2a2727;
-    margin-bottom: 30px;
-    text-align: center;
-}
-
-.team-section .group {
-    display: flex;
-    align-items: center;
-    gap: 50px;
-}
-
-.team-section .group .personal-details {
-    text-align: center;
-    flex: 2;
-}
-
-.team-section .group .text {
-    flex: 8;
-}
-
-.team-section .group .personal-details img {
-    aspect-ratio: 1/1;
-    object-fit: cover;
-    border-radius: 50%;
-    margin-bottom: 10px;
-    border: solid 4px darkgreen;
-}
-
-.team-section .group .personal-details p {
+.programs-in-details h3 {
+    font-size: 24px;
+    color: green;
     font-weight: 600;
+    letter-spacing: -1px;
+    margin-bottom: 20px;
 }
 
-.team-section .group .personal-details p:last-child {
-    font-weight: normal;
-    font-style: italic;
+
+
+.programs-in-details p {
+    font-weight: 400;
+    font-size: 20px;
 }
-/* End of About Section */
+
+.tree-planting-heading, .climate-heading, .creativity-heading {
+    text-align: center;
+    margin-bottom: 20px;
+}
 
 /* Contact html */
 /* Contact section */
