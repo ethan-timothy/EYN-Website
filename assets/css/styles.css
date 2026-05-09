@@ -1,6 +1,6 @@
 /* Main Settings */
 * {
-    margin: 0;
+    margin: auto;
     padding: 0;
     list-style: none;
     text-decoration: none;
@@ -51,10 +51,11 @@ h1 {
     position: fixed;
     width: 100%;
     top: 0;
+    gap: 100px;
 }
 
 nav .logo {
-    margin-left: 50px;
+    left:  0;
     width: 70px;
     border-radius: 50%;
 }
@@ -423,6 +424,25 @@ footer .upper-section .description {
 
     .footer .links a {
         font-size: 15px;
+    }
+}
+
+@media (max-width: 920px) {
+    .programs-in-details .tree-planting, .climate-education, .creativity {
+        flex-direction: column;
+    }
+
+    .programs-in-details .gardening, .cleaning {
+        flex-direction: column-reverse;
+    }
+
+    .programs-in-details h3 {
+        text-align: center;
+    }
+
+    .programs-in-details img {
+        width: 100%;
+        aspect-ratio: 16/9;
     }
 }
 
